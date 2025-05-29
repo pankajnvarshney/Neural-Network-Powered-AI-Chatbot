@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Is anyone there?", "Hey", "Good morning"],
+    "responses": ["Hello! Welcome to our Medical Shop. How can I assist you today?"]
+  },
+  {
+    "tag": "ask_medicine",
+    "patterns": ["Do you have Paracetamol?", "I need Crocin", "Is Dolo available?", "Do you sell medicines?"],
+    "responses": ["Yes, we have that. Could you please tell me the quantity you need?"]
+  },
+  {
+    "tag": "place_order",
+    "patterns": ["I want to order medicine", "Place an order for tablets", "Can I buy medicine now?"],
+    "responses": ["Sure! Please share the name of the medicine and quantity."]
+  },
+  {
+    "tag": "check_availability",
+    "patterns": ["Is this medicine in stock?", "Do you have this?", "Check availability of Cipla"],
+    "responses": ["Let me check the availability for you. Please hold on a moment."]
+  },
+  {
+    "tag": "contact_owner",
+    "patterns": ["I want to talk to the shop owner", "Can I contact the medical store?"],
+    "responses": ["Sure, connecting you with the medical shop owner now."]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "Thank you", "See you", "Goodbye"],
+    "responses": ["Take care! If you need any medicines, just message me."]
+  }
+]
