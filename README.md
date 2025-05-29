@@ -5,6 +5,8 @@
 This is a AI-based chatbot built using Python, deep learning, and natural language processing (NLP). The chatbot can understand user queries based on predefined intents and respond accordingly. It uses a feed-forward neural network (built with Keras) trained on labeled conversational data to classify intents and generate appropriate responses.
 
 
+
+
 📌 Features
 
 Intent classification using a neural network
@@ -16,6 +18,8 @@ Easy-to-update conversation data (intents.json)
 Streamlit-based user interface for interaction
 
 Pretrained model (chatbot_model.keras) for fast deployment
+
+
 
 
 🛠️ Technologies Used
@@ -34,9 +38,14 @@ Streamlit for creating the web app interface
 
 Joblib for saving and loading preprocessing tools
 
+
+
 🧠 Deep Learning
 
 This project uses a simple Sequential neural network with dense layers for intent classification. Input text is vectorized and mapped to an intent class using softmax activation. The model is trained on a small set of example sentences for each intent.
+
+
+
 
 📁 Project Structure
 
@@ -53,6 +62,8 @@ chatbot_project/
 ├── vectorizer.pkl          # Pickled CountVectorizer object
 
 ├── label_encoder.pkl       # Pickled LabelEncoder object
+
+
 
 
 🚀 How to Run
